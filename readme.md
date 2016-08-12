@@ -18,13 +18,9 @@ Work is done and the src folder, with scss and js compiling out their counterpar
 
 The SCSS folder inside src contains all related SCSS partials, with demo related styles contained in the _demo.scss folder, and The Flexbox Grid styles located in _flex-grid.scss.
 
-app.scss comiles to assets/css/app.scss
 
 Note that we're not minifing css for the sake of the demo.
 
-### JS
-
-app.js contains js includes that compile out to assets/js/app.js
 
 ## License
 
