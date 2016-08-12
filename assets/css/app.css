@@ -470,6 +470,9 @@ h3 {
     h3 {
       font-size: 1.3em; } }
 
+code {
+  font-size: 0.85em; }
+
 /*----------------------------------------------   
 --Links
 -----------------------------------------------  */
@@ -516,6 +519,18 @@ DEMO STYLES
   background-color: #b5e1ff; }
   .mast p {
     font-size: 0.8em; }
+
+.example {
+  padding: 1.5em 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #ddd; }
+  .example__title {
+    font-size: 1em; }
+    @media (min-width: 54em) {
+      .example__title {
+        display: inline;
+        vertical-align: middle;
+        padding-right: 0.25em; } }
 
 /*----------------------------------------------   
 -Footer

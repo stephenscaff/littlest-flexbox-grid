@@ -1,10 +1,10 @@
-# Demo Name
+# The Littlest Grid System via Flexbox
 
-A simple description of the demo 
+A little demo for a stupid simple and tiny grid system using a flexbox mixin.
 
-Article on the [Pigeon Wisdom Blog ](http://urbaninfluence.com/blog/)
+Article on the [Pigeon Wisdom Blog ]( http://urbaninfluence.com/2016/08/a-flexy-little-grid-system/)
 
-[Demo](http://urbaninfluence.com/demos/)
+[Demo](http://urbaninfluence.com/demos/littlest-grid-system/)
 
 ## Project Setup
 
@@ -16,7 +16,7 @@ Work is done and the src folder, with scss and js compiling out their counterpar
 
 ### SCSS
 
-The SCSS folder contains all related SCSS partials, with the primary demo related styles contained in the _demo.scss folder.
+The SCSS folder inside src contains all related SCSS partials, with demo related styles contained in the _demo.scss folder, and The Flexbox Grid styles located in _flex-grid.scss.
 
 app.scss comiles to assets/css/app.scss
 
@@ -30,25 +30,14 @@ app.js contains js includes that compile out to assets/js/app.js
 
 Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
 
-## Credits
-
-- [library.js](http://library-js.com/) by Carlos Danger
-- Photography from [Unsplash.com](http://unsplash.com)
 
 ## Misc
 
 Created by Stephen Scaff: 
 - [Twitter](http://www.twitter.com/stephenscaff), 
 - [GitHub](https://github.com/stephenscaff), [
-- Github](http://github.com/stephenscaff/)  
 
 At Urban Influence:
 - [Twitter](http://www.twitter.com/pigeonwisdom), 
 - [GitHub](https://github.com/urbaninfluence)
-
-
-
-
-
-
 

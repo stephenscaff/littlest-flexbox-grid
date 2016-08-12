@@ -36,8 +36,11 @@ C00i                                          i00C
   <meta name="description" content="A little demo by stephen scaff">
   <meta name="author" content="Stephen Scaff">
 
+  <link rel="shortcut icon" type="image/ico" href="http://urbaninfluence.com/images/favicon.ico">
+
+
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=David+Libre|Hind:400,700|Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Roboto+Mono" rel="stylesheet">
   
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/app.css">
@@ -45,23 +48,33 @@ C00i                                          i00C
 
 <!-- Body -->  
 <body>
-  
+
+<!-- Header -->   
 <header class="site-header">
   <nav>
     <a href="#">←Back to Article</a>
   </nav>
 </header>
 
+<!-- Mast --> 
 <section class="mast">
   <div class="mast__content">
       <h1>The Littlest Grid</h1>
       <p>A stupid simple Flexbox-based grid mixin</p>
   </div>
 </section>
+
+<!-- Main --> 
 <main role="main">
 
+<!-- Example --> 
+<section class="example">
+  <h5 class="example__title">This Example</h5>
+  <code>@include flex-grid(2,3,4, $pad: 0.5em)</code>
+</section>
+
+<!-- Blocks --> 
 <section class="blocks">
-  <div class="wrap">
   <ul class="blocks__grid">
     <li>
       <!-- Block -->
@@ -136,19 +149,13 @@ C00i                                          i00C
       </article>
     </li>
   </ul>
-  </div>
 </section>
 </main>
 
+<!-- Footer --> 
 <footer class="site-footer">
-<div class="site-footer__content">
-  <p>A little thing by <a href="http://twitter.com/stephenscaff" target="_blank">Stephen Scaff</a> of <a href="http://urbainfluence.com" target="_blank">Urban Influence</a>.
+  <div class="site-footer__content">
+    <p>A little thing by <a href="http://twitter.com/stephenscaff" target="_blank">Stephen Scaff</a> of <a href="http://urbainfluence.com" target="_blank">Urban Influence</a>.
   </div>
 </footer>
-<!-- Le javascript -->  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script>
-  if( !window.jQuery ) document.write('<script src="assets/js/jquery.min.js"><\/script>');
-</script>
-<script type='text/javascript' src='assets/js/app.min.js'></script>
 </body>
