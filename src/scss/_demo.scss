@@ -1,0 +1,56 @@
+/*----------------------------------------------   
+DEMO STYLES
+
+- Header
+- Mast
+- Footer
+-----------------------------------------------  */
+
+/*----------------------------------------------   
+-Site Header
+-----------------------------------------------  */
+.site-header{
+  width: 100%;
+  padding: 1em;
+  background-color: #09f;
+
+
+  nav a{
+    color: #fff;
+    font-size: 0.8em;
+    text-align:center;
+    transition: color 0.7s ease;
+
+    &:hover{
+      color: rgba(255,255,255,0.7);
+      transition: color 0.7s ease;
+    }
+  }
+}
+
+/*----------------------------------------------   
+-Mast
+-----------------------------------------------  */
+.mast{
+  padding: 8em 1em;
+  text-align: center;
+  background-color: #b5e1ff;
+
+  p{
+    font-size: 0.8em;
+  }
+}
+
+/*----------------------------------------------   
+-Footer
+-----------------------------------------------  */
+.site-footer{
+  padding: 4em 0.5em;
+  background-color: #eee;
+  &__content{
+    text-align:center;
+  }
+  p{
+    font-size: 0.8em;
+  }
+}

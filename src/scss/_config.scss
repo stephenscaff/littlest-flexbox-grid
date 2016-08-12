@@ -1,0 +1,32 @@
+//--------------------------------
+// Media Queries
+//---------------------------------
+//Smallest phone
+$mq-xsmall: 22em;
+//phone
+$mq-small: 32em;
+//Tablet
+$mq-med: 54em;
+//laptop
+$mq-large: 65em;
+//Past laptop
+$mq-xlarge: 91em;
+//Mid Size monitor
+$mq-xxlarge: 115em;
+//Thunderbold goes to 157em
+$mq-xxxlarge: 130em;
+
+
+//--------------------------------
+// Fonts
+//---------------------------------
+$font-header: 'Hind', sans-serif;
+//$font-paragraph: 'David Libre', serif;
+$font-paragraph: 'Roboto Mobo', monospace;
+
+
+//--------------------------------
+// Colors
+//---------------------------------
+$color-grey: #999;
+$color-darkgrey: #333;

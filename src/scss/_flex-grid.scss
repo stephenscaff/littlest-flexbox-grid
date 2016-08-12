@@ -1,0 +1,80 @@
+//----------------------------------------------  
+//  flex-grid();
+//  Creates grid blocks via flexbox
+
+//  @param: $sm, $med, $lg, $xl - @media sizes
+//  @param: $pad  - item padding  
+//  @useage: @include g-blocks(1, 2, 3, 4, 1%);
+
+//  @note: Can replace universal selector with '& > #{$item}''  ($item:'article')
+//----------------------------------------------
+@mixin flex-grid($sm:null, $med:null, $lg:null, $xl:null, $pad:0) {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-left: -$pad;
+  margin-right: -$pad;
+  list-style: none;
+
+  & > * {
+    padding:$pad;
+    flex-basis: 100%/$sm;
+    max-width: 100%/$sm;
+    
+    @media(min-width: $mq-med){
+      flex-basis: 100%/$med;
+      max-width: 100%/$med;
+    }
+
+    @if $lg {
+      @media(min-width: $mq-large){
+        flex-basis: 100%/$lg;
+        max-width: 100%/$lg;
+      }
+    }
+
+    @if $xl {
+      @media(min-width: $mq-xlarge){
+        flex-basis: 100%/$xl;
+        max-width: 100%/$xl;
+      }
+    }
+  }
+}
+
+
+/*----------------------------------------------   
+-Blocks
+-----------------------------------------------  */
+.blocks{
+  background-color: #eee;
+  width: 100%;
+  
+  // APPLY FLEX GRID MIXIN
+  &__grid{
+    padding: 1em;
+    @include flex-grid(2,3,4, $pad: 0.5em);
+  }
+}
+
+
+/*----------------------------------------------   
+-Block
+-----------------------------------------------  */
+.block{
+  position: relative;
+  padding-bottom: 86%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.06);
+  
+
+  &__title{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+}
