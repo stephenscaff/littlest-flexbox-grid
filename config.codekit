@@ -20,15 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/readme.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/readme.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/readme.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -41,7 +32,7 @@
 		"inputAbbreviatedPath": "\/readme.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/readme.html",
-		"outputFormat": 0,
+		"outputFormat": 9,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -165,8 +156,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "demos",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "littlest-flexbox-grid",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown"
 	},
 "projectSettings": {
